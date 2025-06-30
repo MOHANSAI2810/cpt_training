@@ -1,0 +1,26 @@
+import datetime 
+a=datetime.datetime.now()
+print(a)
+print(datetime.date.today())
+print(a.strftime('%d-%m-%Y %H:%M:%S'))
+d='30-06-2025 11:51:46'
+parsed=datetime.datetime.strptime(d,'%d-%m-%Y %H:%M:%S')
+print(parsed)
+tom=a+datetime.timedelta(days=31)
+print(tom)
+yes=a-datetime.timedelta(days=1)
+print(yes)
+ftime=a+datetime.timedelta(hours=3,minutes=30)
+print(ftime)
+from datetime import datetime
+
+# Example 12-hour time string
+time_12hr = "02:30 PM"
+
+# Parse the 12-hour format time string to a datetime object
+dt = datetime.strptime(time_12hr, "%I:%M %p")
+
+# Format datetime object to 24-hour format string
+time_24hr = dt.strftime("%H:%M")
+
+print(time_24hr)  # Output: 14:30
