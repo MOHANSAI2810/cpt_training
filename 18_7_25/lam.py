@@ -1,0 +1,1 @@
+print([x for x in [1,2,3,4,'hi'] if (lambda x:isinstance(x,int))(x)])
