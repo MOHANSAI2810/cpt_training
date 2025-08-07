@@ -1,0 +1,8 @@
+name,id,age,cause,date,bill
+john Doe,1,45.0,Fever,2025-08-01,2500.0
+,2,30.0,Fracture,2025-08-02,5000.0
+alice Brown,3,25.0,Flu,2025-08-03,1500.0
+bob Lee,4,60.0,Heart Attack,2025-08-01,12000.0
+mary White,5,,Migraine,2025-08-04,2000.0
+Tom Green,6,38.0,,2025-08-03,4000.0
+Sara Black,7,28.0,Allergy,2025-08-02,1800.0
